@@ -22,6 +22,30 @@ Portafolio web desarrollado con React y Vite para presentar mi perfil académico
 ## Objetivo
 
 Este proyecto fue desarrollado para consolidar conocimientos en desarrollo frontend y servir como espacio de presentación profesional .
+Biosignal-AI Analytics
+
+Aplicación web para análisis y visualización de señales biomédicas utilizando técnicas de procesamiento de señales y detección de anomalías.
+
+Características:
+
+Visualización interactiva de señales temporales.
+Comparación entre señal original y señal filtrada.
+Detección automática de anomalías.
+Métricas descriptivas de la señal.
+Dashboard desarrollado con React.
+Gráficos interactivos utilizando Recharts.
+
+Tecnologías utilizadas:
+
+React
+JavaScript
+Recharts
+Vite
+Procesamiento de señales biomédicas
+
+Objetivo:
+
+Explorar aplicaciones de análisis de datos biomédicos y visualización científica, integrando conceptos de Física Médica, Ciencia de Datos e Inteligencia Artificial.
 
 ## Instalación
 
