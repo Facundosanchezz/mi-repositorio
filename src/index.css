@@ -1,19 +1,204 @@
+/* ========================================
+   RESET GLOBAL
+   ======================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background: #111;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+/* ========================================
+   TIPOGRAFÍA
+   ======================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+p {
+  color: #b0b0b0;
+}
+
+/* ========================================
+   ENLACES
+   ======================================== */
 
 a {
   color: #00ffcc;
   text-decoration: none;
-  transition: 0.3s;
+  transition: color 0.3s ease, opacity 0.3s ease;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.8;
+}
+
+a:focus-visible {
+  outline: 2px solid #00ffcc;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ========================================
+   BOTONES
+   ======================================== */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+/* ========================================
+   FORMULARIOS
+   ======================================== */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 16px;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  padding: 10px;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #00ffcc;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
+}
+
+/* ========================================
+   LISTAS
+   ======================================== */
+
+ul, ol {
+  list-style: none;
+}
+
+/* ========================================
+   IMÁGENES
+   ======================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ========================================
+   TABLAS
+   ======================================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+th {
+  background: #1a1a1a;
+  font-weight: 600;
+  color: #00ffcc;
+}
+
+/* ========================================
+   SCROLLBAR (Webkit)
+   ======================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ffcc;
+}
+
+/* ========================================
+   SELECCIÓN DE TEXTO
+   ======================================== */
+
+::selection {
+  background: #00ffcc;
+  color: #111;
+}
+
+::-moz-selection {
+  background: #00ffcc;
+  color: #111;
+}
+
+/* ========================================
+   ACCESIBILIDAD
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ========================================
+   IMPRESIÓN
+   ======================================== */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
 }
