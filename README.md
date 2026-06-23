@@ -1,16 +1,58 @@
-# React + Vite
+# Mi Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web desarrollado con React y Vite para presentar mi perfil académico, habilidades técnicas y proyectos relacionados con programación, análisis de datos y Física Médica.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* JavaScript
+* CSS
+* Git y GitHub
 
-## React Compiler
+## Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Diseño responsive
+* Navegación con desplazamiento suave
+* Presentación profesional de perfil
+* Sección de habilidades técnicas
+* Sección de proyectos
+* Información de contacto
 
-## Expanding the ESLint configuration
+## Objetivo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto fue desarrollado para consolidar conocimientos en desarrollo frontend y servir como espacio de presentación profesional .
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Facundosanchezz/mi-repositorio.git
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Generar versión de producción:
+
+```bash
+npm run build
+```
+
+## Autor
+
+Facundo Sánchez
+
+Estudiante de Licenciatura en Física Médica.
+
+Intereses: Python, Ciencia de Datos, Física Médica, Desarrollo Web y Tecnología.
